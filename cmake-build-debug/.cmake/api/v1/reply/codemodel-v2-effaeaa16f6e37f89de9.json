@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-73a91cf03137e0e59f84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OcrLiteOnnx",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OcrLiteOnnx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OcrLiteOnnx-Debug-4d308fe3ae8ed4865089.json",
+					"name" : "OcrLiteOnnx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-Debug-4f5753c9c9f66f90f53a.json",
+					"name" : "benchmark",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-debug",
+		"source" : "/home/ge/tmp/tmp.kzbCXzdZ0X"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

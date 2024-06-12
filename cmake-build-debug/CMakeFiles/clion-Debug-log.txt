@@ -1,0 +1,12 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/ge/tmp/tmp.kzbCXzdZ0X -B /home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-debug
+-- No OCR_OUTPUT, defaulting to BIN
+OPENMP FOUND
+閰嶇疆Linux OnnxRuntime 璺緞: /home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux
+-- OnnxRuntime_LIBS: onnxruntime_session;onnxruntime_optimizer;onnxruntime_providers;onnxruntime_util;onnxruntime_framework;onnxruntime_graph;onnxruntime_mlas;onnxruntime_common;onnxruntime_flatbuffers;onnx;onnx_proto;protobuf-lite;re2;flatbuffers;cpuinfo;clog;nsync_cpp
+-- OnnxRuntime_INCLUDE_DIRS: /home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux/include
+閰嶇疆Linux OpenCV 璺緞: /home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/lib/cmake/opencv4
+-- OpenCV_LIBS: opencv_core;opencv_features2d;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_photo;opencv_video
+-- OpenCV_INCLUDE_DIRS: /home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/include/opencv4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-debug

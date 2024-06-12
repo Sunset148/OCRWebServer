@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OcrLiteOnnx"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\onnxruntime-static\;CMake Files\onnxruntime-static\linux\;CMake Files\opencv-static\;CMake Files\opencv-static\linux\;CMake Files\opencv-static\linux\lib\;CMake Files\opencv-static\linux\lib\cmake\;CMake Files\opencv-static\linux\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OcrLiteOnnx">
+				<Option output="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/OcrLiteOnnx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__EXEC__"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/include/opencv4"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 OcrLiteOnnx"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OcrLiteOnnx/fast">
+				<Option output="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/OcrLiteOnnx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__EXEC__"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/include/opencv4"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 OcrLiteOnnx/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__EXEC__"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/include/opencv4"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__EXEC__"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/include"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp"/>
+					<Add directory="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/include/opencv4"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Buffer.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Buffer.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Channel.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Channel.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Dispatcher.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Dispatcher.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/EpollDispatcher.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/EpollDispatcher.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/EventLoop.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/EventLoop.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/HttpRequest.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/HttpRequest.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/Httpresponse.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/PollDispatcher.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/PollDispatcher.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/SelectDispatcher.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/SelectDispatcher.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/TcpConnection.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/TcpConnection.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/TcpServer.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/TcpServer.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/ThreadPool.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/ThreadPool.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/WorkerThread.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/WorkerThread.h">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/ReactorHttp-Cpp/main.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/AngleNet.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/CrnnNet.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/DbNet.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/OcrLite.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/OcrLiteCaller.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/OcrLiteJni.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/OcrResultUtils.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/OcrUtils.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/PredString.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/clipper.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/src/getopt.cpp">
+			<Option target="OcrLiteOnnx"/>
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/OnnxRuntimeWrapper.cmake">
+			<Option virtualFolder="CMake Files\onnxruntime-static\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/onnxruntime-static/linux/OnnxRuntimeConfig.cmake">
+			<Option virtualFolder="CMake Files\onnxruntime-static\linux\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/OpenCVWrapperConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv-static\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv-static\linux\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv-static\linux\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\opencv-static\linux\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ge/tmp/tmp.kzbCXzdZ0X/opencv-static/linux/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv-static\linux\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

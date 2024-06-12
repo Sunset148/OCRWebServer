@@ -1,0 +1,8 @@
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/OcrLiteOnnx.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/benchmark.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/list_install_components.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/install.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/install/local.dir
+/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release/CMakeFiles/install/strip.dir

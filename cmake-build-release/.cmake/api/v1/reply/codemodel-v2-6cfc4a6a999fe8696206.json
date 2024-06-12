@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-dfc60dc0cc9662210033.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OcrLiteOnnx",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OcrLiteOnnx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OcrLiteOnnx-Release-fa69f962430c65bef3fe.json",
+					"name" : "OcrLiteOnnx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-Release-05b85e24405b74493777.json",
+					"name" : "benchmark",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ge/tmp/tmp.kzbCXzdZ0X/cmake-build-release",
+		"source" : "/home/ge/tmp/tmp.kzbCXzdZ0X"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

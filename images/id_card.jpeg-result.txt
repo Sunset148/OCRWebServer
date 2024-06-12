@@ -1,0 +1,41 @@
+=====Input Params=====
+numThread(16),padding(50),maxSideLen(1024),boxScoreThresh(0.600000),boxThresh(0.300000),unClipRatio(2.000000),doAngle(1),mostAngle(1)
+=====Init Models=====
+--- Init DbNet ---
+--- Init AngleNet ---
+--- Init CrnnNet ---
+Init Models Success!
+=====Start detect=====
+ScaleParam(sw:650,sh:466,dw:640,dh:448,0.984615,0.961373)
+---------- step: dbNet getTextBoxes ----------
+dbNetTime(91.956475ms)
+TextBox[0](+padding)[score(0.805733),[x: 212, y: 137], [x: 453, y: 82], [x: 461, y: 115], [x: 219, y: 170]]
+TextBox[1](+padding)[score(0.844039),[x: 208, y: 189], [x: 480, y: 130], [x: 488, y: 171], [x: 216, y: 230]]
+TextBox[2](+padding)[score(0.741858),[x: 336, y: 291], [x: 394, y: 278], [x: 399, y: 301], [x: 341, y: 314]]
+TextBox[3](+padding)[score(0.731543),[x: 348, y: 326], [x: 478, y: 296], [x: 483, y: 318], [x: 353, y: 348]]
+---------- step: drawTextBoxes ----------
+---------- step: angleNet getAngles ----------
+angle[0][index(1), score(1.000000), time(0.969356ms)]
+angle[1][index(1), score(1.000000), time(0.670624ms)]
+angle[2][index(1), score(0.999990), time(0.606984ms)]
+angle[3][index(1), score(0.997804), time(0.606923ms)]
+---------- step: crnnNet getTextLine ----------
+textLine[0](中华人民共和国)
+textScores[0]{0.994313 ,0.997404 ,0.999233 ,0.844254 ,0.993326 ,0.999469 ,0.992494}
+crnnTime[0](5.747826ms)
+textLine[1](居民身份证)
+textScores[1]{0.999977 ,0.992874 ,0.999976 ,0.99983 ,0.992763}
+crnnTime[1](4.389918ms)
+textLine[2](公安局)
+textScores[2]{0.999784 ,0.992512 ,0.999641}
+crnnTime[2](2.147177ms)
+textLine[3](5:14-2029.05.14)
+textScores[3]{0.87915 ,0.873244 ,0.99749 ,0.999997 ,0.995468 ,0.999788 ,0.998554 ,0.988353 ,0.882917 ,0.99623 ,0.994594 ,0.998395 ,0.984153 ,0.999731 ,0.999996}
+crnnTime[3](4.202641ms)
+=====End detect=====
+FullDetectTime(125.496829ms)
+中华人民共和国
+居民身份证
+公安局
+5:14-2029.05.14
+
